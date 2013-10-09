@@ -1,4 +1,4 @@
-# gh-pages-blog 
+# gh-pages-blog #
 =============
 
 The simple way to use GitHub Pages as your account or project blog and website.

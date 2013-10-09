@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+	<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+		<channel>
+			<title>Real Time fMRI blog</title>
+			<link>http://realtime-fmri-blog.github.io/realtime-fmri-blog/</link>
+			<description>Real Time fMRI for the People!</description>
+			<language>en-us</language>
+			<pubDate>Mon, 09 Sep 2013 18:55:05 EDT</pubDate>
+			<lastBuildDate>Mon, 09 Sep 2013 18:55:05 EDT</lastBuildDate>
+			<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+			<generator>http://github.com/thedereck/gh-pages-blog</generator>
+			<atom:link href="http://realtime-fmri-blog.github.io/realtime-fmri-blog//rss.xml" rel="self" type="application/rss+xml" />
+
+			
+
+			
+
+			
+				<ttl>300</ttl>
+			
+
+			
+
+			
+				<item>
+					
+						<title>Introducing Real-Time fMRI.</title>
+					
+					<link>http://realtime-fmri-blog.github.io/realtime-fmri-blog//rtfmri%20beginning/2013/08/15/intro.html</link>
+
+					
+						<author>CCB</author>
+					
+
+					<pubDate>Thu, 15 Aug 2013 00:00:00 EDT</pubDate>
+					<guid>http://realtime-fmri-blog.github.io/realtime-fmri-blog//rtfmri%20beginning/2013/08/15/intro</guid>
+
+					
+						<category><![CDATA[ rtfmri beginning ]]></category>
+					
+
+					<description><![CDATA[  ]]></description>
+					<content:encoded><![CDATA[ <h4>adapted from <a href="http://www.neurofeedback-research.org/mediapool/106/1068657/data/Sulzer_Haller_Scharnowski_Weiskopf_-_2013_-_Neuroimage.pdf">J. Sulzer et al. (2011)</a></h4><p>Here we will define real-time functional magnetic resonance imaging (rtfMRI), first published by <a href='http://onlinelibrary.wiley.com/doi/10.1002/mrm.1910330213/abstract'>Cox et al. (1995)</a> , as any process that uses functional information from a MRI scanner where the analysis and display of the fMRI keep pace with data acquisition. Although modern whole brain fMRI data sampling can be performed in around 500ms <a href='http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0015710'>(Feinberg et al., 2010)</a> , current real-time protocols use sampling rates of arround two seconds. According to <a href='http://onlinelibrary.wiley.com/doi/10.1002/mrm.1910330213/abstract'>Cox et al.</a> first description of rt-fMRI, it can be used to control for quality during normal fMRI scanning, faster protocol development and interactive experimental paradigms. At present, rtfMRI has also been applied to intraoperative surgical guidance <a href='http://www-users.med.cornell.edu/~jdvicto/pdfs/hiruki00.pdf'>(Hirsch et al., 2000),</a> brain-computer interfaces (BCIs) <a href='http://zoology.ou.edu/pdf_documents/Neuromunch/Sorger%20et%20al%202012%20fMRI-based%20spelling.pdf'>(Sorger et al.,  2012;</a> <a href='http://www.sciencedirect.com/science/article/pii/S1053811911008585'> Yoo et al., 2004)</a>, and neurofeedback. However, as progress in the field advances and the challenges for future research and clinical applications are settled, this could be a powerfull tool aiding diagnostic as well as treatment. <br /> <br /> <br /> <br /></p>
+<img src='img/loop.png' /><br /><br />
+<p>Schematic of rtfMRI control loop. Taken from <a href='http://www.neurofeedback-research.org/mediapool/106/1068657/data/Sulzer_Haller_Scharnowski_Weiskopf_-_2013_-_Neuroimage.pdf'>J. Sulzer et al. (2011)</a></p>
+<br /><br />
+<p>Since rt-fMRI is slowly emerging as a imaging modality with many imaginable applications in basic, translational and clinical neuroscience, here we would like to construct The rt-fMRI for the People Network which will support rt-fMRI studies and will enable researchers to be connected, sharing their experiences through the network. Thus, we&#8217;ll be able to better share our ideas, comments, resources, tools, experiences, data, and specally trobelshooting and finding ways to overcome current methodologiacal and technical issues. The rt-fMRI for the People Network will facilitate efficient exchange of ideas, tools, resources, experiences and data among anyone interested. We wish The rt-fMRI for the People Network will help to enhance the collaborations among the researchers, especially translate our knowledge into basic neuroscience and incorporate methodologies to clinical applications.</p>
+
+<p>Welcome all, we hope you enjoy it here!</p> ]]></content:encoded>
+				</item>
+			
+				<item>
+					
+						<title>The steps of rt-fMRI since 1995</title>
+					
+					<link>http://realtime-fmri-blog.github.io/realtime-fmri-blog//rtfmri%20beginning/2013/07/16/niche.html</link>
+
+					
+						<author>CCB</author>
+					
+
+					<pubDate>Tue, 16 Jul 2013 00:00:00 EDT</pubDate>
+					<guid>http://realtime-fmri-blog.github.io/realtime-fmri-blog//rtfmri%20beginning/2013/07/16/niche</guid>
+
+					
+						<category><![CDATA[ rtfmri beginning ]]></category>
+					
+
+					<description><![CDATA[  ]]></description>
+					<content:encoded><![CDATA[ <h4>The first method for real-time fMRI was presented by <a href="http://onlinelibrary.wiley.com/doi/10.1002/mrm.1910330213/abstract">Cox et al. (1995)</a> .</h4>Since then the field of rt-fMRI is slowly emerging with a slow increase in published articles in the last five years. 
+
+<img src="img/Rplot1995.jpg" />
+
+<br /> 
+<br /> 
+
+
+
+
+<br /> 
+<br /> 
+ ]]></content:encoded>
+				</item>
+			
+				<item>
+					
+						<title>This is the beginning of the rtfmri blog!</title>
+					
+					<link>http://realtime-fmri-blog.github.io/realtime-fmri-blog//rtfmri%20demo/2013/07/15/testpost.html</link>
+
+					
+						<author>Cameron Craddock</author>
+					
+
+					<pubDate>Mon, 15 Jul 2013 00:00:00 EDT</pubDate>
+					<guid>http://realtime-fmri-blog.github.io/realtime-fmri-blog//rtfmri%20demo/2013/07/15/testpost</guid>
+
+					
+						<category><![CDATA[ rtfmri demo ]]></category>
+					
+
+					<description><![CDATA[  ]]></description>
+					<content:encoded><![CDATA[ <h4>A collection of documents, demos and software to enable real time fmri</h4><p>Things I would like to see:</p>
+
+<ol>
+<li>code</li>
+
+<li>walkthroughs</li>
+
+<li>discussions of different techniques</li>
+</ol> ]]></content:encoded>
+				</item>
+			
+
+		</channel>
+	</rss>
