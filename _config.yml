@@ -376,8 +376,9 @@ external_links :
     - link :
       name : Real-Time fMRI with Turbo-BrainVoyager 2.0
       url: http://www.brainvoyager.com/bvresources/RainersBVBlog/files/tbv20.html
-	
-
+    - link :
+      name : murfi (multivariate and univariate real-time functional imaging) 
+      url: http://mindhive.mit.edu/realtime/murfi
 
 
 # These are the bootstrap settings. These bootstrap settings will control both
