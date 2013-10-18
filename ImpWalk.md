@@ -47,16 +47,17 @@ a researcher might hope to find neural correlates through neuroimaging.
 + In a mass univariate context, "brain states" are represented as variates of interest in a design matrix. 
 + In a supervised learning context, these regressors serve instead as "labels." 
 
-+When the labels are *categorical* in nature, we can formulate the modeling problem as a classification problem over a set of experimental
+   When the labels are *categorical* in nature, we can formulate the modeling problem as a classification problem over a set of experimental
    categories. 
-+ When the labels are *continuous*, the problem can be
-framed as a regression problem to describe parametrically varying
-brain states such as task difficulty, behavioral rate, visual angle, etc. It is
-important to remember that regardless of the analyses performed
-(supervised, unsupervised, multivariate, mass univariate), the source
-data are exactly the same and come with the same limitations inherent
-to fMRI (e.g. voxel size, temporal sampling, and an indirect
-relationship to cellular brain activity). 
+
+   When the labels are *continuous*, the problem can be framed as a regression problem to describe parametrically varying
+brain states such as task difficulty, behavioral rate, visual angle, etc. 
+
+   It is important to remember that regardless of the analyses performed
+   (supervised, unsupervised, multivariate, mass univariate), the source
+   data are exactly the same and come with the same limitations inherent
+   to fMRI (e.g. voxel size, temporal sampling, and an indirect
+   relationship to cellular brain activity). 
 
 + in an multi voxel pattern analysis (MVPA) setting there is
 usually a training data set (to estimate the parameters for the
