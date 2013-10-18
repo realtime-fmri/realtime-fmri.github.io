@@ -2,14 +2,14 @@
 	<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 		<channel>
 			<title>Real Time fMRI</title>
-			<link>http://localhost/~bodhi/realtime-fmri.github.io</link>
+			<link>http://realtime-fmri.github.io</link>
 			<description>Real Time fMRI for the People!</description>
 			<language>en-us</language>
-			<pubDate>Wed, 16 Oct 2013 15:19:55 EDT</pubDate>
-			<lastBuildDate>Wed, 16 Oct 2013 15:19:55 EDT</lastBuildDate>
+			<pubDate>Fri, 18 Oct 2013 16:33:41 EDT</pubDate>
+			<lastBuildDate>Fri, 18 Oct 2013 16:33:41 EDT</lastBuildDate>
 			<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 			<generator>http://github.com/thedereck/gh-pages-blog</generator>
-			<atom:link href="http://localhost/~bodhi/realtime-fmri.github.io/rss.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://realtime-fmri.github.io/rss.xml" rel="self" type="application/rss+xml" />
 
 			
 
@@ -26,14 +26,14 @@
 					
 						<title>Introducing Real-Time fMRI.</title>
 					
-					<link>http://localhost/~bodhi/realtime-fmri.github.io/rtfmri%20beginning/2013/08/15/intro.html</link>
+					<link>http://realtime-fmri.github.io/rtfmri%20beginning/2013/08/15/intro.html</link>
 
 					
 						<author>CCB</author>
 					
 
 					<pubDate>Thu, 15 Aug 2013 00:00:00 EDT</pubDate>
-					<guid>http://localhost/~bodhi/realtime-fmri.github.io/rtfmri%20beginning/2013/08/15/intro</guid>
+					<guid>http://realtime-fmri.github.io/rtfmri%20beginning/2013/08/15/intro</guid>
 
 					
 						<category><![CDATA[ rtfmri beginning ]]></category>
@@ -57,14 +57,14 @@
 					
 						<title>The steps of rt-fMRI since 1995</title>
 					
-					<link>http://localhost/~bodhi/realtime-fmri.github.io/rtfmri%20beginning/2013/07/16/niche.html</link>
+					<link>http://realtime-fmri.github.io/rtfmri%20beginning/2013/07/16/niche.html</link>
 
 					
 						<author>CCB</author>
 					
 
 					<pubDate>Tue, 16 Jul 2013 00:00:00 EDT</pubDate>
-					<guid>http://localhost/~bodhi/realtime-fmri.github.io/rtfmri%20beginning/2013/07/16/niche</guid>
+					<guid>http://realtime-fmri.github.io/rtfmri%20beginning/2013/07/16/niche</guid>
 
 					
 						<category><![CDATA[ rtfmri beginning ]]></category>
@@ -90,14 +90,14 @@
 					
 						<title>This is the beginning of the rtfmri blog!</title>
 					
-					<link>http://localhost/~bodhi/realtime-fmri.github.io/rtfmri%20demo/2013/07/15/testpost.html</link>
+					<link>http://realtime-fmri.github.io/rtfmri%20demo/2013/07/15/testpost.html</link>
 
 					
 						<author>Cameron Craddock</author>
 					
 
 					<pubDate>Mon, 15 Jul 2013 00:00:00 EDT</pubDate>
-					<guid>http://localhost/~bodhi/realtime-fmri.github.io/rtfmri%20demo/2013/07/15/testpost</guid>
+					<guid>http://realtime-fmri.github.io/rtfmri%20demo/2013/07/15/testpost</guid>
 
 					
 						<category><![CDATA[ rtfmri demo ]]></category>

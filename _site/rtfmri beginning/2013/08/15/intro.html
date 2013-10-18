@@ -5,7 +5,7 @@
 <html lang="en">
 
 
-<head><title>Real Time fMRI - Introducing Real-Time fMRI.</title><meta name="author" content='Clemens Bauer'><meta name="author" content='CCB'><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="http://localhost/~bodhi/realtime-fmri.github.io/css/bootstrap.min.css" rel="stylesheet" media="screen"><link href="http://localhost/~bodhi/realtime-fmri.github.io/css/gh-pages-blog.css" rel="stylesheet" media="screen"><link href="http://localhost/~bodhi/realtime-fmri.github.io/css/bootstrap-responsive.min.css" rel="stylesheet"><link rel="stylesheet" href="http://localhost/~bodhi/realtime-fmri.github.io/css/font-awesome.min.css"><link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost/~bodhi/realtime-fmri.github.io/rss.xml" /><link rel="icon" type="image/png" href="http://localhost/~bodhi/realtime-fmri.github.io/img/ghpb-favicon.png" /></head>
+<head><title>Real Time fMRI - Introducing Real-Time fMRI.</title><meta name="author" content='Clemens Bauer'><meta name="author" content='CCB'><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="http://realtime-fmri.github.io/css/bootstrap.min.css" rel="stylesheet" media="screen"><link href="http://realtime-fmri.github.io/css/gh-pages-blog.css" rel="stylesheet" media="screen"><link href="http://realtime-fmri.github.io/css/bootstrap-responsive.min.css" rel="stylesheet"><link rel="stylesheet" href="http://realtime-fmri.github.io/css/font-awesome.min.css"><link rel="alternate" type="application/rss+xml" title="RSS" href="http://realtime-fmri.github.io/rss.xml" /><link rel="icon" type="image/png" href="http://realtime-fmri.github.io/img/ghpb-favicon.png" /></head>
 
 
 
@@ -16,7 +16,7 @@
 <body>
 
 
-<div class="navbar navbar-inverse"><div class="navbar-inner"><div class="container"><a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="http://localhost/~bodhi/realtime-fmri.github.io/"><strong>REAL-TIME FMRI</strong></a><div class="nav-collapse collapse"><ul class="nav pull-right"><li><a href="http://localhost/~bodhi/realtime-fmri.github.io/ImpWalk.html">Implementation Walkthough</a></li><li><a href="http://localhost/~bodhi/realtime-fmri.github.io/tools.html">Tools</a></li><li><a href="http://localhost/~bodhi/realtime-fmri.github.io/code.html">Code</a></li><li><a href="http://localhost/~bodhi/realtime-fmri.github.io/pubmed.html">rt-fMRI on PubMed</a></li></ul></div></div></div></div>
+<div class="navbar navbar-inverse"><div class="navbar-inner"><div class="container"><a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="http://realtime-fmri.github.io/"><strong>REAL-TIME FMRI</strong></a><div class="nav-collapse collapse"><ul class="nav pull-right"><li><a href="http://realtime-fmri.github.io/ImpWalk.html">real-time-fMRI Implementation Walkthough</a></li><li><a href="http://realtime-fmri.github.io/tools.html">Tools</a></li><li><a href="http://realtime-fmri.github.io/code.html">Code</a></li><li><a href="http://realtime-fmri.github.io/pubmed.html">rt-fMRI on PubMed</a></li></ul></div></div></div></div>
 
 <div class="container">
 <div class="row">
@@ -24,7 +24,7 @@
 <div class="ghpb-post">
 
 
-<div class="page-header"><h1>Introducing Real-Time fMRI.</h1><h4>adapted from <a href="http://www.neurofeedback-research.org/mediapool/106/1068657/data/Sulzer_Haller_Scharnowski_Weiskopf_-_2013_-_Neuroimage.pdf">J. Sulzer et al. (2011)</a></h4><div class="row"><small><div class="span3 offset1"><i class="icon-user"></i> Authored by CCB.<br><i class="icon-pencil"></i> Published on 15 August 2013.<br></div><div class="span3"><i class="icon-folder-open"></i> Category: <a href="http://localhost/~bodhi/realtime-fmri.github.io/filter.html?category=rtfmri___beginning">Rtfmri beginning</a><br><i class="icon-tags"></i> Tags: <a href="http://localhost/~bodhi/realtime-fmri.github.io/filter.html?tag=initial___release">initial release</a><br></div><div class="span1"></div></small></div></div>
+<div class="page-header"><h1>Introducing Real-Time fMRI.</h1><h4>adapted from <a href="http://www.neurofeedback-research.org/mediapool/106/1068657/data/Sulzer_Haller_Scharnowski_Weiskopf_-_2013_-_Neuroimage.pdf">J. Sulzer et al. (2011)</a></h4><div class="row"><small><div class="span3 offset1"><i class="icon-user"></i> Authored by CCB.<br><i class="icon-pencil"></i> Published on 15 August 2013.<br></div><div class="span3"><i class="icon-folder-open"></i> Category: <a href="http://realtime-fmri.github.io/filter.html?category=rtfmri___beginning">Rtfmri beginning</a><br><i class="icon-tags"></i> Tags: <a href="http://realtime-fmri.github.io/filter.html?tag=initial___release">initial release</a><br></div><div class="span1"></div></small></div></div>
 
 
 <p>Here we will define real-time functional magnetic resonance imaging (rtfMRI), first published by <a href='http://onlinelibrary.wiley.com/doi/10.1002/mrm.1910330213/abstract'>Cox et al. (1995)</a> , as any process that uses functional information from a MRI scanner where the analysis and display of the fMRI keep pace with data acquisition. Although modern whole brain fMRI data sampling can be performed in around 500ms <a href='http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0015710'>(Feinberg et al., 2010)</a> , current real-time protocols use sampling rates of arround two seconds. According to <a href='http://onlinelibrary.wiley.com/doi/10.1002/mrm.1910330213/abstract'>Cox et al.</a> first description of rt-fMRI, it can be used to control for quality during normal fMRI scanning, faster protocol development and interactive experimental paradigms. At present, rtfMRI has also been applied to intraoperative surgical guidance <a href='http://www-users.med.cornell.edu/~jdvicto/pdfs/hiruki00.pdf'>(Hirsch et al., 2000),</a> brain-computer interfaces (BCIs) <a href='http://zoology.ou.edu/pdf_documents/Neuromunch/Sorger%20et%20al%202012%20fMRI-based%20spelling.pdf'>(Sorger et al.,  2012;</a> <a href='http://www.sciencedirect.com/science/article/pii/S1053811911008585'> Yoo et al., 2004)</a>, and neurofeedback. However, as progress in the field advances and the challenges for future research and clinical applications are settled, this could be a powerfull tool aiding diagnostic as well as treatment.</p>
@@ -58,7 +58,7 @@
 </div>
 
 
-<script src="http://localhost/~bodhi/realtime-fmri.github.io/js/jquery-1.9.1.min.js"></script><script src="http://localhost/~bodhi/realtime-fmri.github.io/js/bootstrap.min.js"></script>
+<script src="http://realtime-fmri.github.io/js/jquery-1.9.1.min.js"></script><script src="http://realtime-fmri.github.io/js/bootstrap.min.js"></script>
 
 
 
