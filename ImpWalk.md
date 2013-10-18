@@ -59,18 +59,17 @@ brain states such as task difficulty, behavioral rate, visual angle, etc.
    to fMRI (e.g. voxel size, temporal sampling, and an indirect
    relationship to cellular brain activity). 
 
-+ in an multi voxel pattern analysis (MVPA) setting there is
-usually a training data set (to estimate the parameters for the
++ Multi voxel pattern analysis (MVPA) settings 
+usually require a training data set (to estimate the parameters for the
 supervised learning model) and an independent test set (that was
 never seen by the training step). 
 +Since the MVPA predicts brain states
 (which are often designed or measured) and not brain maps (which
-are usually not known), the models are easier to validate. In fact, using
-these concepts it is possible to perform a data driven receiver
-operating characteristic (ROC) analysis for assessment of fMRI data
-analysis methodologies (Kjems et al., 2002; LaConte et al., 2003; Shaw
-et al., 2003; Strother et al., 2002b).
+are usually not known), the models are easier to validate. 
 
+ 
+ 
+### TABS implementation
 
 
 
