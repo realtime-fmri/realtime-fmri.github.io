@@ -42,10 +42,10 @@ increasing or decreasing local activity.
 
 ####Highlights
 
-+ A "Brain states" [(as in Strother et al., 2002b)](http://www.ncbi.nlm.nih.gov/pubmed/11906218) are essentially the sensory/behavioral events or mental processes for which
++ "Brain states" [(as in Strother et al., 2002b)](http://www.ncbi.nlm.nih.gov/pubmed/11906218) are essentially the sensory/behavioral events or mental processes for which
 a researcher might hope to find neural correlates through neuroimaging.
-+ In a mass univariate context, “brain states” are represented as variates of interest in a design matrix. 
-+ In a supervised learning context, these regressors serve instead as “labels.” 
++ In a mass univariate context, "brain states" are represented as variates of interest in a design matrix. 
++ In a supervised learning context, these regressors serve instead as "labels." 
   +When the labels are categorical in nature, we can formulate the modeling
 problem as a classification problem over a set of experimental
 categories. 
