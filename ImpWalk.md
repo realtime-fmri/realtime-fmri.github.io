@@ -36,7 +36,7 @@ This part describes brain-state prediction real-time fMRI from [\(LaConte et al.
 
 ####Advantages
 1. No prior assumptions about functional localization and individual performance strategies required
-+ the system learns these directly from the volunteer. 
+  + the system learns these directly from the volunteer. 
 2. Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on
 increasing or decreasing local activity. 
 
