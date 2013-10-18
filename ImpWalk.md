@@ -32,17 +32,43 @@ Turbo BrainVoyager
 
 ### Temporally Adaptive Brain State (TABS) fMRI.
 
-This part describes brain-state prediction real-time fMRI from [\(LaConte et al., 2007,](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011\)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
+This part describes brain-state prediction real-time fMRI from [\(LaConte et al., 2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011\)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
 
-Therea are several advantages of brain-state prediction real-time fMRI. The first advantage is that prior assumptions
- about functional localization and individual performance strategies are not required-the system learns these directly from the volunteer. This provides
-for a high degree of experimental flexibility across the spectrum of cognitive domains. The second advantage
-is that feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on
-increasing or decreasing local activity. The potential benefit to fMRI research is quite high, as this approach provides
-the capability for a new class of experimental designs in which real-time feedback control of the stimulus
-is possible—rather than using a fixed paradigm, experiments can adaptively evolve as subjects receive
-brain-state feedback.
+####Advantages
+1. No prior assumptions about functional localization and individual performance strategies required
++ the system learns these directly from the volunteer. 
+2. Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on
+increasing or decreasing local activity. 
 
+####Highlights
+
++ A "Brain states" [(as in Strother et al., 2002b)](http://www.ncbi.nlm.nih.gov/pubmed/11906218) are essentially the sensory/behavioral events or mental processes for which
+a researcher might hope to find neural correlates through neuroimaging.
++ In a mass univariate context, “brain states” are represented as variates of interest in a design matrix. 
++ In a supervised learning context, these regressors serve instead as “labels.” 
+  +When the labels are categorical in nature, we can formulate the modeling
+problem as a classification problem over a set of experimental
+categories. 
++ When the labels are continuous, the problem can be
+framed as a regression problem to describe parametrically varying
+brain states such as task difficulty, behavioral rate, visual angle, etc. It is
+important to remember that regardless of the analyses performed
+(supervised, unsupervised, multivariate, mass univariate), the source
+data are exactly the same and come with the same limitations inherent
+to fMRI (e.g. voxel size, temporal sampling, and an indirect
+relationship to cellular brain activity). 
+
++ in an multi voxel pattern analysis (MVPA) setting there is
+usually a training data set (to estimate the parameters for the
+supervised learning model) and an independent test set (that was
+never seen by the training step). 
++Since the MVPA predicts brain states
+(which are often designed or measured) and not brain maps (which
+are usually not known), the models are easier to validate. In fact, using
+these concepts it is possible to perform a data driven receiver
+operating characteristic (ROC) analysis for assessment of fMRI data
+analysis methodologies (Kjems et al., 2002; LaConte et al., 2003; Shaw
+et al., 2003; Strother et al., 2002b).
 
 
 
