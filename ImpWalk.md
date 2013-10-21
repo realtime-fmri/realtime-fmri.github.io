@@ -32,7 +32,7 @@ Turbo BrainVoyager
 
 ### Temporally Adaptive Brain State (TABS) fMRI.
 
-This part describes brain-state prediction real-time fMRI from [\LaConte et al. (2007,\ ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011\)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
+This part describes brain-state prediction real-time fMRI from [\LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011\)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
 
 ####Advantages
 1. No prior assumptions about functional localization and individual performance strategies required
