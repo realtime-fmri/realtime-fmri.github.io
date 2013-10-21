@@ -39,7 +39,7 @@
 
 <h3 id='temporally_adaptive_brain_state_tabs_fmri'>Temporally Adaptive Brain State (TABS) fMRI.</h3>
 
-<p>This part describes brain-state prediction real-time fMRI from <a href='http://www.ncbi.nlm.nih.gov/pubmed/17133383'>(LaConte et al., 2007,</a><a href='http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte'>2011)</a></p>
+<p>This part describes brain-state prediction real-time fMRI from <a href='http://www.ncbi.nlm.nih.gov/pubmed/17133383'>\LaConte et al. (2007,\</a><a href='http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte'>2011)</a></p>
 
 <h4 id='advantages'>Advantages</h4>
 
@@ -61,17 +61,21 @@
 </li>
 
 <li>
-<p>In a supervised learning context, these regressors serve instead as &#8220;labels.&#8221; +When the labels are categorical in nature, we can formulate the modeling problem as a classification problem over a set of experimental categories.</p>
+<p>In a supervised learning context, these regressors serve instead as &#8220;labels.&#8221;</p>
+
+<p>When the labels are <strong>categorical</strong> in nature, we can formulate the modeling problem as a classification problem over a set of experimental categories.</p>
+
+<p>When the labels are <strong>continuous</strong>, the problem can be framed as a regression problem to describe parametrically varying brain states such as task difficulty, behavioral rate, visual angle, etc.</p>
+
+<p>It is important to remember that regardless of the analyses performed (supervised, unsupervised, multivariate, mass univariate), the source data are exactly the same and come with the same limitations inherent to fMRI (e.g. voxel size, temporal sampling, and an indirect relationship to cellular brain activity).</p>
 </li>
 
 <li>
-<p>When the labels are continuous, the problem can be framed as a regression problem to describe parametrically varying brain states such as task difficulty, behavioral rate, visual angle, etc. It is important to remember that regardless of the analyses performed (supervised, unsupervised, multivariate, mass univariate), the source data are exactly the same and come with the same limitations inherent to fMRI (e.g. voxel size, temporal sampling, and an indirect relationship to cellular brain activity).</p>
-</li>
-
-<li>
-<p>in an multi voxel pattern analysis (MVPA) setting there is usually a training data set (to estimate the parameters for the supervised learning model) and an independent test set (that was never seen by the training step). +Since the MVPA predicts brain states (which are often designed or measured) and not brain maps (which are usually not known), the models are easier to validate. In fact, using these concepts it is possible to perform a data driven receiver operating characteristic (ROC) analysis for assessment of fMRI data analysis methodologies (Kjems et al., 2002; LaConte et al., 2003; Shaw et al., 2003; Strother et al., 2002b).</p>
+<p>Multi voxel pattern analysis (MVPA) settings usually require a training data set (to estimate the parameters for the supervised learning model) and an independent test set (that was never seen by the training step). +Since the MVPA predicts brain states (which are often designed or measured) and not brain maps (which are usually not known), the models are easier to validate.</p>
 </li>
 </ul>
+
+<h3 id='tabs_implementation'>TABS implementation</h3>
 
 <p>The minimum required equipment that you will need to run a powerfull rt-fMRI on your scanner could look something like this:</p>
 
