@@ -35,38 +35,52 @@ Turbo BrainVoyager
 This part describes brain-state prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
 
 ####Advantages
-1. No prior assumptions about functional localization and individual performance strategies required
-  * the system learns these directly from the volunteer. 
-2. Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on
-increasing or decreasing local activity. 
+1. Multivariate approaches provide a principled method for dealing with distributed patterns of brain responses
+  * when network activity is expected
+  * when mental strategies could vary from individual to individual
+  * or when one or a few ROIs are not unequivocally the most appropriate for the investigation
+2. No prior assumptions about functional localization and individual performance strategies are required
+  * the system learns these directly from the volunteer 
+3. Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on
+increasing or decreasing local activity
+4. Near-perfect prediction accuracy is attainable during sustained periods of activation
+5. Stimulus feedback can respond to changes in the breain state mucha earlier than the time-to-peak limitations of the BOLD response
 
-####Highlights
 
-+ "Brain states" [(as in Strother et al., 2002b)](http://www.ncbi.nlm.nih.gov/pubmed/11906218) are essentially the sensory/behavioral events or mental processes for which
-a researcher might hope to find neural correlates through neuroimaging.
-+ In a mass univariate context, "brain states" are represented as variates of interest in a design matrix. 
-+ In a supervised learning context, these regressors serve instead as "labels." 
+####Characteristics
+
++ *"Brain states"* [(as in Strother et al., 2002b)](http://www.ncbi.nlm.nih.gov/pubmed/11906218) are essentially the sensory/behavioral events or 
+mental processes for we might hope to find neural correlates through neuroimaging.
++ Algorithms usually used in machine learning attempt to estimate this relationship between vector inputs and scalar outputs. 
++ **TABS** uses brain volumes from temporally sampled data as vector inputs to a trained model, which then predicts the scalar outputs of brain states 
+that are subsequently used as a control signal to adapt the feedback stimulus.
++ TABS's machine learning approach used with modern data acquisition and reconstruction capabilities of modern MRI systems, can allow for 
+greater flexibility of fMRI experimental designs by enabeling adaptive stimuli guided by ongoing detection of the sensory/behavioral states encoded
+ in the hemodynamics of a subjet's brain.  
+
++ Contrary to mass univariate contexts, where *"brain states"* are represented as variates of interest in a design matrix, in supervised machine
+ learning contexts, these regressors serve instead as *"labels."* 
 
    When the labels are **categorical** in nature, we can formulate the modeling problem as a classification problem over a set of experimental
    categories. 
 
    When the labels are **continuous**, the problem can be framed as a regression problem to describe parametrically varying
-brain states such as task difficulty, behavioral rate, visual angle, etc. 
+   brain states such as task difficulty, behavioral rate, visual angle, etc. 
 
-   It is important to remember that regardless of the analyses performed
++ Multivatiate strategies provide a useful tool in situations where less a riori knowledge exists or subjects can use different cognitive strategies
+to perform the same task because they have the potential to adapt to the individual and the specific experimental context.
+ 
++ Because +"brain states"*, in many cases, can be empirically observed (if you are a well trained actor and you think of something sad, you could even
+drop some tears!) and the brain state prediction validated more easily than the statistical map predictions, it gives the oportunity to obtain a robust
+training data set to estimate this multi voxel pattern analysis parameters for the supervised learning.
+   
+   TABS implementation represents an active system based on these concepts.     
+
++Finally, it is important to remember that regardless of the analyses performed
    (supervised, unsupervised, multivariate, mass univariate), the source
    data are exactly the same and come with the same limitations inherent
    to fMRI (e.g. voxel size, temporal sampling, and an indirect
-   relationship to cellular brain activity). 
-
-+ Multi voxel pattern analysis (MVPA) settings 
-usually require a training data set (to estimate the parameters for the
-supervised learning model) and an independent test set (that was
-never seen by the training step). 
-+Since the MVPA predicts brain states
-(which are often designed or measured) and not brain maps (which
-are usually not known), the models are easier to validate. 
-
+   relationship to cellular brain activity).  
  
  
 ### TABS implementation
