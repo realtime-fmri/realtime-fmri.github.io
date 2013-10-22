@@ -58,7 +58,7 @@ that are subsequently used as a control signal to adapt the feedback stimulus.
 greater flexibility of fMRI experimental designs by enabeling adaptive stimuli guided by ongoing detection of the sensory/behavioral states encoded
  in the hemodynamics of a subjet's brain.  
 
-+ Contrary to mass univariate contexts, where *"brain states"* are represented as variates of interest in a design matrix, in supervised machine
++ Contrary to mass univariate contexts, where "brain states" are represented as variates of interest in a design matrix, in supervised machine
  learning contexts, these regressors serve instead as *"labels."* 
 
    When the labels are **categorical** in nature, we can formulate the modeling problem as a classification problem over a set of experimental
@@ -70,7 +70,7 @@ greater flexibility of fMRI experimental designs by enabeling adaptive stimuli g
 + Multivatiate strategies provide a useful tool in situations where less a riori knowledge exists or subjects can use different cognitive strategies
 to perform the same task because they have the potential to adapt to the individual and the specific experimental context.
  
-+ Because +"brain states"*, in many cases, can be empirically observed (if you are a well trained actor and you think of something sad, you could even
++ Because *"brain states"*, in many cases, can be empirically observed (if you are a well trained actor and you think of something sad, you could even
 drop some tears!) and the brain state prediction validated more easily than the statistical map predictions, it gives the oportunity to obtain a robust
 training data set to estimate this multi voxel pattern analysis parameters for the supervised learning.
    

@@ -39,41 +39,79 @@
 
 <h3 id='temporally_adaptive_brain_state_tabs_fmri'>Temporally Adaptive Brain State (TABS) fMRI.</h3>
 
-<p>This part describes brain-state prediction real-time fMRI from <a href='http://www.ncbi.nlm.nih.gov/pubmed/17133383'>\LaConte et al. (2007,\</a><a href='http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte'>2011)</a></p>
+<p>This part describes brain-state prediction real-time fMRI from <a href='http://www.ncbi.nlm.nih.gov/pubmed/17133383'>LaConte et al. (2007,</a><a href='http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte'>2011)</a></p>
 
 <h4 id='advantages'>Advantages</h4>
 
 <ol>
-<li>No prior assumptions about functional localization and individual performance strategies required + the system learns these directly from the volunteer.</li>
+<li>
+<p>Multivariate approaches provide a principled method for dealing with distributed patterns of brain responses</p>
 
-<li>Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on increasing or decreasing local activity.</li>
+<ul>
+<li>when network activity is expected</li>
+
+<li>when mental strategies could vary from individual to individual</li>
+
+<li>or when one or a few ROIs are not unequivocally the most appropriate for the investigation</li>
+</ul>
+</li>
+
+<li>
+<p>No prior assumptions about functional localization and individual performance strategies are required * the system learns these directly from the volunteer</p>
+</li>
+
+<li>
+<p>Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on increasing or decreasing local activity</p>
+</li>
+
+<li>
+<p>Near-perfect prediction accuracy is attainable during sustained periods of activation</p>
+</li>
+
+<li>
+<p>Stimulus feedback can respond to changes in the breain state mucha earlier than the time-to-peak limitations of the BOLD response</p>
+</li>
 </ol>
 
-<h4 id='highlights'>Highlights</h4>
+<h4 id='characteristics'>Characteristics</h4>
 
 <ul>
 <li>
-<p>&#8220;Brain states&#8221; <a href='http://www.ncbi.nlm.nih.gov/pubmed/11906218'>(as in Strother et al., 2002b)</a> are essentially the sensory/behavioral events or mental processes for which a researcher might hope to find neural correlates through neuroimaging.</p>
+<p><em>&#8220;Brain states&#8221;</em> <a href='http://www.ncbi.nlm.nih.gov/pubmed/11906218'>(as in Strother et al., 2002b)</a> are essentially the sensory/behavioral events or mental processes for we might hope to find neural correlates through neuroimaging.</p>
 </li>
 
 <li>
-<p>In a mass univariate context, &#8220;brain states&#8221; are represented as variates of interest in a design matrix.</p>
+<p>Algorithms usually used in machine learning attempt to estimate this relationship between vector inputs and scalar outputs.</p>
 </li>
 
 <li>
-<p>In a supervised learning context, these regressors serve instead as &#8220;labels.&#8221;</p>
+<p><strong>TABS</strong> uses brain volumes from temporally sampled data as vector inputs to a trained model, which then predicts the scalar outputs of brain states that are subsequently used as a control signal to adapt the feedback stimulus.</p>
+</li>
+
+<li>
+<p>TABS&#8217;s machine learning approach used with modern data acquisition and reconstruction capabilities of modern MRI systems, can allow for greater flexibility of fMRI experimental designs by enabeling adaptive stimuli guided by ongoing detection of the sensory/behavioral states encoded in the hemodynamics of a subjet&#8217;s brain.</p>
+</li>
+
+<li>
+<p>Contrary to mass univariate contexts, where &#8220;brain states&#8221; are represented as variates of interest in a design matrix, in supervised machine learning contexts, these regressors serve instead as <em>&#8220;labels.&#8221;</em></p>
 
 <p>When the labels are <strong>categorical</strong> in nature, we can formulate the modeling problem as a classification problem over a set of experimental categories.</p>
 
 <p>When the labels are <strong>continuous</strong>, the problem can be framed as a regression problem to describe parametrically varying brain states such as task difficulty, behavioral rate, visual angle, etc.</p>
-
-<p>It is important to remember that regardless of the analyses performed (supervised, unsupervised, multivariate, mass univariate), the source data are exactly the same and come with the same limitations inherent to fMRI (e.g. voxel size, temporal sampling, and an indirect relationship to cellular brain activity).</p>
 </li>
 
 <li>
-<p>Multi voxel pattern analysis (MVPA) settings usually require a training data set (to estimate the parameters for the supervised learning model) and an independent test set (that was never seen by the training step). +Since the MVPA predicts brain states (which are often designed or measured) and not brain maps (which are usually not known), the models are easier to validate.</p>
+<p>Multivatiate strategies provide a useful tool in situations where less a riori knowledge exists or subjects can use different cognitive strategies to perform the same task because they have the potential to adapt to the individual and the specific experimental context.</p>
+</li>
+
+<li>
+<p>Because <em>&#8220;brain states&#8221;</em>, in many cases, can be empirically observed (if you are a well trained actor and you think of something sad, you could even drop some tears!) and the brain state prediction validated more easily than the statistical map predictions, it gives the oportunity to obtain a robust training data set to estimate this multi voxel pattern analysis parameters for the supervised learning.</p>
+
+<p>TABS implementation represents an active system based on these concepts.</p>
 </li>
 </ul>
+
+<p>+Finally, it is important to remember that regardless of the analyses performed (supervised, unsupervised, multivariate, mass univariate), the source data are exactly the same and come with the same limitations inherent to fMRI (e.g. voxel size, temporal sampling, and an indirect relationship to cellular brain activity).</p>
 
 <h3 id='tabs_implementation'>TABS implementation</h3>
 
