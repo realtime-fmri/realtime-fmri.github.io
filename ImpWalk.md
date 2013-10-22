@@ -43,7 +43,7 @@ This part describes brain-state prediction real-time fMRI from [LaConte et al. (
   * the system learns these directly from the volunteer 
 3. Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on
 increasing or decreasing local activity
-4. Near-perfect prediction accuracy is attainable during sustained periods of activation
+4. Near-perfect prediction accuracy \~80\% classificationis attainable during sustained periods of activation
 5. Stimulus feedback can respond to changes in the breain state mucha earlier than the time-to-peak limitations of the BOLD response
 
 
@@ -67,7 +67,7 @@ greater flexibility of fMRI experimental designs by enabeling adaptive stimuli g
    When the labels are **continuous**, the problem can be framed as a regression problem to describe parametrically varying
    brain states such as task difficulty, behavioral rate, visual angle, etc. 
 
-+ Multivatiate strategies provide a useful tool in situations where less a riori knowledge exists or subjects can use different cognitive strategies
++ Multivatiate strategies provide a useful tool in situations where less a priori knowledge exists or subjects can use different cognitive strategies
 to perform the same task because they have the potential to adapt to the individual and the specific experimental context.
  
 + Because *"brain states"*, in many cases, can be empirically observed (if you are a well trained actor and you think of something sad, you could even
