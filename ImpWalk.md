@@ -43,7 +43,7 @@ This part describes brain-state prediction real-time fMRI from [LaConte et al. (
   * the system learns these directly from the volunteer 
 3. Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on
 increasing or decreasing local activity
-4. Near-perfect prediction accuracy \~80\% classificationis attainable during sustained periods of activation
+4. Near-perfect prediction accuracy ~80% classificationis attainable during sustained periods of activation
 5. Stimulus feedback can respond to changes in the breain state mucha earlier than the time-to-peak limitations of the BOLD response
 
 
