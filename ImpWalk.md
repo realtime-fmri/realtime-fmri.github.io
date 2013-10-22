@@ -76,7 +76,7 @@ training data set to estimate this multi voxel pattern analysis parameters for t
    
    TABS implementation represents an active system based on these concepts.     
 
-+Finally, it is important to remember that regardless of the analyses performed
++ Finally, it is important to remember that regardless of the analyses performed
    (supervised, unsupervised, multivariate, mass univariate), the source
    data are exactly the same and come with the same limitations inherent
    to fMRI (e.g. voxel size, temporal sampling, and an indirect
