@@ -17,15 +17,17 @@ fMRI signal in one or a few regions of interest (ROIs). However, there are also 
 In this section we will walkthough the different ways of implementing real-time fMRI.
 
 
-## <a id="univariate"></a>Univariate Statistical Approaches
-### <a id="roi"></a> Region Of Interest (ROI) 
+### <a id="univariate"></a>Univariate Statistical Approaches
+#### <a id="roi"></a> Region Of Interest (ROI) 
 
-####<a id="tbv"></a>Turbo BrainVoyager
+#####<a id="tbv"></a>Turbo BrainVoyager
 
-## <a id="mvpa"></a>Multivariate or Brain state prediction real-time fMRI.
+### <a id="mvpa"></a>Multivariate or Brain state prediction real-time fMRI.
 
 
-###<a id="tabs"></a>Temporally Adaptive Brain State (TABS) fMRI
+####<a id="tabs"></a>Temporally Adaptive Brain State (TABS) fMRI
+
+---
 
 
 ##[Univariate statistical approaches](#univariate)
