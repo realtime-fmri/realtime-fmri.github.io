@@ -42,7 +42,7 @@ TurboFire, Turbo-BrainVoyager, and AFNI are fairly similar in their basic functi
 
 These systems originated with the goal of processing data with a mass univariate approach.
 
-### Region of Interest
+## Region of Interest
 
 #### TurboFire
 #### Turbo-BrainVoyager
