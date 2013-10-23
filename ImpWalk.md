@@ -17,7 +17,7 @@ In this section we will walkthough the different ways of implementing real-time 
 
 1. [Univariate statistical approaches](#univariate)
 + [Region Of Interest (ROI)](#roi)
-  [Turbo BrainVoyager](#tbv)
+  * [Turbo BrainVoyager](#tbv)
 2.[Multivariate statistical approaches](#mvpa)
 + [Brain state prediction real-time fMRI](#mvpa)
   [Temporally Adaptive Brain State (TABS) fMRI](#tabs)
