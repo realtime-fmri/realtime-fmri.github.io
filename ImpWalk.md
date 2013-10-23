@@ -91,6 +91,31 @@ training data set to estimate this multi voxel pattern analysis parameters for t
  
 ### TABS implementation
 
+The equipment you will need to build an rtfMRI system:
+
+1. Depending on the vendor hardware and software architectures, you certainly need the scanner receiver A/D and image reconstruction hardware.
+2. Access to the reconstruction system, which can range from a shared file system to custom reconstruction code that has direct access
+to the data.
+3. At least one additional computer dedicated to controlling the stimulus delivery and any desired behavioral or physiological recording and
+the Audio/Video presentation sytem.
+4. A second separate computer to run the real-time software (with shared file and/or network access) or be integrated
+with (or even fully replace) the image reconstruction software.
+
+Making the actual connections between equipments:
+
+1. Will depend on the physical layout of the machines, local computer security policiesand, and the actual hardware on the computers, but include:
++ parallel
++ RS232 serial
++ firewire ports 
++ USB2 
++ Ethernet connections through switches support data communication through protocols such as TCP and hard disk file sharing through NFS and SAMBA. 
++ Bluetooth and/or wireless connections
+
+**Note** that these details, by their nature, are outdated quickly, however, the main concerns are that the processor power and data transmission 
+bandwidth are adequate to perform whatever is needed for the experiment.  Image data requires the most RAM and/or disk utilization while BCI control signals from ROIs or classifiers usually
+require only a few bytes. Furthermore, the TABS system for prediction of brain states uses a trained
+model that is the same for every volume and thus, the computational demand remains fixed for the entire feedback run.
+
 
 
 The minimum required equipment that you will need to run a powerfull rt-fMRI on your scanner could look something like this:
