@@ -15,7 +15,7 @@ fMRI signal in one or a few regions of interest (ROIs). However, there are also 
 
 In this section we will walkthough the different ways of implementing real-time fMRI.
 
-###1. [Univariate statistical approaches](#univariate)
+###1. [Univariate statistical approaches](#Univariate_statistical_approaches)
 #### [Region Of Interest (ROI)](#roi)
 ##### [TurboFire](#tf)
 ##### [Turbo-BrainVoyager](#tbv)
