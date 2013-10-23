@@ -16,11 +16,11 @@ fMRI signal in one or a few regions of interest (ROIs). However, there are also 
 In this section we will walkthough the different ways of implementing real-time fMRI.
 
 1. [Univariate statistical approaches](#univariate)
-	[Region Of Interest (ROI)](#roi)
-	[Turbo BrainVoyager](#tbv)
++ [Region Of Interest (ROI)](#roi)
+  [Turbo BrainVoyager](#tbv)
 2.[Multivariate statistical approaches](#mvpa)
-  	[Brain state prediction real-time fMRI](#mvpa)
-    [Temporally Adaptive Brain State (TABS) fMRI](#tabs)
++ [Brain state prediction real-time fMRI](#mvpa)
+  [Temporally Adaptive Brain State (TABS) fMRI](#tabs)
 
 
 
@@ -36,7 +36,7 @@ In this section we will walkthough the different ways of implementing real-time 
 
 ####<a id="tabs"></a>Temporally Adaptive Brain State (TABS) fMRI
 
-This part describes brain-state prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
+ This part describes brain-state prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
 
 ####Advantages
 1. Multivariate approaches provide a principled method for dealing with distributed patterns of brain responses
