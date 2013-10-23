@@ -36,6 +36,9 @@ In this section we will walkthough the different ways of implementing real-time 
 <a id="univariate"></a>
 ### Univariate Statistical Approaches
 
+
+
+
 TurboFire, Turbo-BrainVoyager, and AFNI are fairly similar in their basic functionality.
 
 These systems originated with the goal of processing data with a mass univariate approach.
