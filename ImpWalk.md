@@ -33,7 +33,7 @@ In this section we will walkthough the different ways of implementing real-time 
 
 
 
-### univariate
+### Univariate statistical approaches
 
 
 
