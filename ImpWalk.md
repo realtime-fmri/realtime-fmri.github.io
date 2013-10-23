@@ -111,15 +111,6 @@ with (or even fully replace) the image reconstruction software.
 + Ethernet connections through switches support data communication through protocols such as TCP and hard disk file sharing through NFS and SAMBA. 
 + Bluetooth and/or wireless connections
 
-**Note** that these details, by their nature, are outdated quickly, however, the main concerns are that the processor power and data transmission 
-bandwidth are adequate to perform whatever is needed for the experiment.  Image data requires the most RAM and/or disk utilization while BCI control signals from ROIs or classifiers usually
-require only a few bytes. Furthermore, the TABS system for prediction of brain states uses a trained
-model that is the same for every volume and thus, the computational demand remains fixed for the entire feedback run.
-
-<img src="img/tabs_hardware.jpg" />
-
-Schematic of a current TABS hardware setup in which arrows indicate the direction of communication, tanken from [LaConte et al. (2007)](http://www.ncbi.nlm.nih.gov/pubmed/17133383). 
-The dotted box represents the relevant subsystems of a typical MRI system, which include the MRI scanner, console, and image reconstruction.
  In the implementation reported by LaConte (2007), the image reconstruction system performed all of the
 real-time calculations (estimating a classification model during training runs and using these models to classify new images during feedback runs)
  as well as communicating with
@@ -131,7 +122,18 @@ computations, such as generating brain vs. non-brain mask images, tracking motio
 can also act as a server for the remote
 observation computer at a distant site. Future plans include transferring all of the real-time calculations to the real-time display computer 
 to fully utilize AFNI's real-time
-enhancements and our efforts to build plugins [(like 3dsvm—http://lacontelab.org/3dsvm.html)] (http://www.lacontelab.org/3dsvm.htm) for AFNI.
+enhancements and our efforts to build plugins [(like 3dsvm)] (http://www.lacontelab.org/3dsvm.htm) for AFNI.
+
+**Note** that these details, by their nature, are outdated quickly, however, the main concerns are that the processor power and data transmission 
+bandwidth are adequate to perform whatever is needed for the experiment.  Image data requires the most RAM and/or disk utilization while BCI control signals from ROIs or classifiers usually
+require only a few bytes. Furthermore, the TABS system for prediction of brain states uses a trained
+model that is the same for every volume and thus, the computational demand remains fixed for the entire feedback run.
+
+<img src="img/tabs_hardware.jpg" />
+
+Schematic of a current TABS hardware setup in which arrows indicate the direction of communication, tanken from [LaConte et al. (2007)](http://www.ncbi.nlm.nih.gov/pubmed/17133383). 
+The dotted box represents the relevant subsystems of a typical MRI system, which include the MRI scanner, console, and image reconstruction.
+ 
 
 
 The minimum required equipment that you will need to run a powerfull rt-fMRI on your scanner could look something like this:
