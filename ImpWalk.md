@@ -4,12 +4,13 @@ title : Implementation Walkthough
 subtitle : 
 order : 1
 ---
-
-##Existing real-time fMRI implementations
-
  <a id="top"></a>
+##Existing real-time fMRI implementations 
 
-There are a variety of ways one can extract fMRI information based on how the brain is responding during an experiment, and then
+
+ 
+ 
+ There are a variety of ways one can extract fMRI information based on how the brain is responding during an experiment, and then
  use this information to change stimuli (neurofeedback) or controll brain computer interfaces (BCI).  
 The majority of real-time fMRI has focused on the use of univariate statistical analysis approaches related to the general linear model
 (GLM) [\(Friston et al., 1995b\)](http://spin.ecn.purdue.edu/fmri/PDFLibrary/FristonK_HBM_1995_2_189_210.pdf) or to tracking the 
@@ -17,14 +18,12 @@ fMRI signal in one or a few regions of interest (ROIs). However, there are also 
 
 In this section we will walkthough the different ways of implementing real-time fMRI.
 
-1. [Univariate statistical approaches](#univariate)
-+ [Region Of Interest (ROI)](#roi)
-	[Turbo BrainVoyager](#tbv)
-2. [Multivariate statistical approaches](#mvpa)
-
-+ [Brain state prediction real-time fMRI](#mvpa)
-
-	[Temporally Adaptive Brain State (TABS) fMRI](#tabs)
++ [Univariate statistical approaches](#univariate)
+  *[Region Of Interest (ROI)](#roi)
+    *[Turbo BrainVoyager](#tbv)
++ [Multivariate statistical approaches](#mvpa)
+  *[Brain state prediction real-time fMRI](#mvpa)
+    *[Temporally Adaptive Brain State (TABS) fMRI](#tabs)
 
 
 
