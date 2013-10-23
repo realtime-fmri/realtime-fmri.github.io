@@ -48,7 +48,7 @@ In this section we will walkthough the different ways of implementing real-time 
   * the system learns these directly from the volunteer 
 3. Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on
 increasing or decreasing local activity
-4. Near-perfect prediction accuracy ~80% classificationis attainable during sustained periods of activation
+4. Near-perfect prediction accuracy (~80%) classifications attainable during sustained periods of activation
 5. Stimulus feedback can respond to changes in the breain state mucha earlier than the time-to-peak limitations of the BOLD response
 
 
@@ -59,11 +59,11 @@ mental processes for we might hope to find neural correlates through neuroimagin
 + Algorithms usually used in machine learning attempt to estimate this relationship between vector inputs and scalar outputs. 
 + **TABS** uses brain volumes from temporally sampled data as vector inputs to a trained model, which then predicts the scalar outputs of brain states 
 that are subsequently used as a control signal to adapt the feedback stimulus.
-+ TABS's machine learning approach used with modern data acquisition and reconstruction capabilities of modern MRI systems, can allow for 
++ **TABS's** machine learning approach used with modern data acquisition and reconstruction capabilities of modern MRI systems, can allow for 
 greater flexibility of fMRI experimental designs by enabeling adaptive stimuli guided by ongoing detection of the sensory/behavioral states encoded
  in the hemodynamics of a subjet's brain.  
 
-+ Contrary to mass univariate contexts, where "brain states" are represented as variates of interest in a design matrix, in supervised machine
++ Contrary to mass univariate contexts, where *"brain states"* are represented as variates of interest in a design matrix, in supervised machine
  learning contexts, these regressors serve instead as *"labels."* 
 
    When the labels are **categorical** in nature, we can formulate the modeling problem as a classification problem over a set of experimental
