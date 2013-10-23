@@ -44,6 +44,7 @@ In this section we will walkthough the different ways of implementing real-time 
   * when mental strategies could vary from individual to individual
   * or when one or a few ROIs are not unequivocally the most appropriate for the investigation
 2. No prior assumptions about functional localization and individual performance strategies are required
+  
   * the system learns these directly from the volunteer 
 3. Feedback can rely on a direct, intuitive translation of brain state, rather than a representation based on
 increasing or decreasing local activity
