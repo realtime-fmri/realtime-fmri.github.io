@@ -4,7 +4,6 @@ title : Implementation Walkthough
 subtitle : 
 order : 1
 ---
-####<a id="top"></a>top of the page
 
 ##Existing real-time fMRI implementations 
 
@@ -16,12 +15,12 @@ fMRI signal in one or a few regions of interest (ROIs). However, there are also 
 
 In this section we will walkthough the different ways of implementing real-time fMRI.
 
-+ [Univariate statistical approaches](#univariate)
-  *[Region Of Interest (ROI)](#roi)
-    *[Turbo BrainVoyager](#tbv)
-+ [Multivariate statistical approaches](#mvpa)
-  *[Brain state prediction real-time fMRI](#mvpa)
-    *[Temporally Adaptive Brain State (TABS) fMRI](#tabs)
+1. [Univariate statistical approaches](#univariate)
+	[Region Of Interest (ROI)](#roi)
+	[Turbo BrainVoyager](#tbv)
+2.[Multivariate statistical approaches](#mvpa)
+  	[Brain state prediction real-time fMRI](#mvpa)
+    [Temporally Adaptive Brain State (TABS) fMRI](#tabs)
 
 
 
@@ -32,7 +31,6 @@ In this section we will walkthough the different ways of implementing real-time 
 
 #####<a id="tbv"></a>Turbo BrainVoyager
 
-[back to top](#top)
 
 ### <a id="mvpa"></a>Multivariate or Brain state prediction real-time fMRI.
 
@@ -52,7 +50,6 @@ increasing or decreasing local activity
 4. Near-perfect prediction accuracy ~80% classificationis attainable during sustained periods of activation
 5. Stimulus feedback can respond to changes in the breain state mucha earlier than the time-to-peak limitations of the BOLD response
 
-[back to top](#top)
 
 ####Characteristics
 
@@ -89,7 +86,7 @@ training data set to estimate this multi voxel pattern analysis parameters for t
    to fMRI (e.g. voxel size, temporal sampling, and an indirect
    relationship to cellular brain activity).  
  
- [back to top](#top)
+
  
 ### TABS implementation
 
@@ -101,4 +98,4 @@ CPU
 RAM
 etc.. 
 
-[back to top](#top)
+
