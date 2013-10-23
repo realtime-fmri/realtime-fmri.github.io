@@ -4,12 +4,10 @@ title : Implementation Walkthough
 subtitle : 
 order : 1
 ---
- <a id="top"></a>
+####<a id="top"></a>top of the page
+
 ##Existing real-time fMRI implementations 
 
-
- 
- 
  There are a variety of ways one can extract fMRI information based on how the brain is responding during an experiment, and then
  use this information to change stimuli (neurofeedback) or controll brain computer interfaces (BCI).  
 The majority of real-time fMRI has focused on the use of univariate statistical analysis approaches related to the general linear model
@@ -34,8 +32,9 @@ In this section we will walkthough the different ways of implementing real-time 
 
 #####<a id="tbv"></a>Turbo BrainVoyager
 
-### <a id="mvpa"></a>Multivariate or Brain state prediction real-time fMRI.
+[back to top](#top)
 
+### <a id="mvpa"></a>Multivariate or Brain state prediction real-time fMRI.
 
 ####<a id="tabs"></a>Temporally Adaptive Brain State (TABS) fMRI
 
@@ -90,6 +89,7 @@ training data set to estimate this multi voxel pattern analysis parameters for t
    to fMRI (e.g. voxel size, temporal sampling, and an indirect
    relationship to cellular brain activity).  
  
+ [back to top](#top)
  
 ### TABS implementation
 
@@ -101,4 +101,4 @@ CPU
 RAM
 etc.. 
 
-
+[back to top](#top)
