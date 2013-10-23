@@ -16,15 +16,14 @@ fMRI signal in one or a few regions of interest (ROIs). However, there are also 
 In this section we will walkthough the different ways of implementing real-time fMRI.
 
 ###1. [Univariate statistical approaches](#univariate_statistical_approaches)
-#### [Region Of Interest (ROI)](#roi)
-##### [TurboFire](#tf)
-##### [Turbo-BrainVoyager](#tbv)
+#### [Region Of Interest](#region_of_interest)
+##### [TurboFire](#turbofire)
+##### [Turbo-BrainVoyager](#turbo-brainvoyager)
 ##### [AFNI](#afni)
-###2. [Multivariate statistical approaches](#mvpa)
-#### [Brain state prediction real-time fMRI](#mvpa)
-##### [Temporally Adaptive Brain State (TABS) fMRI](#tabs)
+###2. [Multivariate statistical approaches](#multivariate_statistical_approaches)
+#### [Brain state prediction real-time fMRI](#brain_state_prediction_real-time_fmri)
+##### [Temporally Adaptive Brain State fMRI](#temporally_adaptive_brain_state_fmri)
 
-[Link to Header](#header)
 
 
 
@@ -32,8 +31,6 @@ In this section we will walkthough the different ways of implementing real-time 
 ---
 
 
-
-## Header
 
 
 ### Univariate statistical approaches
@@ -63,9 +60,9 @@ for 3D volume visualization.
 + enables TCP and serial transmission of multiple ROIs as well as motion parameters.
 ### <a id="mvpa"></a>Multivariate or Brain state prediction real-time fMRI.
 
-####<a id="tabs"></a>Temporally Adaptive Brain State (TABS) fMRI
+####<a id="tabs"></a>Temporally Adaptive Brain State fMRI
 
-This part describes brain-state prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
+ This part describes temporally adaptive brain-state (Also refered as **TABST**) prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
 
 ####Advantages
 1. Multivariate approaches provide a principled method for dealing with distributed patterns of brain responses
