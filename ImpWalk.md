@@ -21,9 +21,9 @@ In this section we will walkthough the different ways of implementing real-time 
 ##### [Turbo-BrainVoyager](#turbo-brainvoyager)
 ##### [AFNI](#afni)
 ###2. [Multivariate statistical approaches](#multivariate_statistical_approaches)
-#### [Brain state prediction real-time fMRI](#brain_state_prediction_real-time_fmri)
+#### [Brain state prediction realtime fMRI](#brain_state_prediction_realtime_fmri)
 ##### [Temporally Adaptive Brain State fMRI](#temporally_adaptive_brain_state_fmri)
-##### [Multivariate and univariate real-time functional imaging](#multivariate_and_univariate_real-time_functional_imaging)
+##### [Multivariate and univariate realtime functional imaging](#multivariate_and_univariate_realtime_functional_imaging)
 
 
 
@@ -162,7 +162,7 @@ The dotted box represents the relevant subsystems of a typical MRI system, which
  
 
 
-### Multivariate and univariate real-time functional imaging
+### Multivariate and univariate realtime functional imaging
 
 [**MURFI**](http://mindhive.mit.edu/realtime/murfi#documentation) (multivariate and univariate real-time functional imaging) is a software package for real-time processing of 
 functional brain images for neuroscience applications. At the moment murfi is fMRI-centric, but we plan to add support for other imaging modalities.
