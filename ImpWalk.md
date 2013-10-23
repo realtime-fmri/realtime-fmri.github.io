@@ -62,7 +62,7 @@ for 3D volume visualization.
 
 ### Temporally Adaptive Brain State fMRI
 
- This part describes temporally adaptive brain-state (Also refered as **TABST**) prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
+ This part describes temporally adaptive brain-state (Also refered as **TABS**) prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
 
 #### Advantages
 1. Multivariate approaches provide a principled method for dealing with distributed patterns of brain responses
