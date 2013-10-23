@@ -91,7 +91,7 @@ training data set to estimate this multi voxel pattern analysis parameters for t
  
 ### TABS implementation
 
-The equipment you will need to build an rtfMRI system as shown in Fig. 1:
+**The equipment you will need to build an rtfMRI system as shown in Fig. 1:**
 
 1. Depending on the vendor hardware and software architectures, you certainly need the scanner receiver A/D and image reconstruction hardware.
 2. Access to the reconstruction system, which can range from a shared file system to custom reconstruction code that has direct access
@@ -101,7 +101,7 @@ the Audio/Video presentation sytem.
 4. A second separate computer to run the real-time software (with shared file and/or network access) or be integrated
 with (or even fully replace) the image reconstruction software.
 
-Making the actual connections between equipments:
+**Making the actual connections between equipments:**
 
 1. Will depend on the physical layout of the machines, local computer security policiesand, and the actual hardware on the computers, but include:
 + parallel
@@ -118,7 +118,7 @@ model that is the same for every volume and thus, the computational demand remai
 
 <img src="img/tabs_hardware.jpg" />
 
-Schematic of a current TABS hardware setup in which arrows indicate the direction of communication, tanken from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383). 
+Schematic of a current TABS hardware setup in which arrows indicate the direction of communication, tanken from [LaConte et al. (2007)](http://www.ncbi.nlm.nih.gov/pubmed/17133383). 
 The dotted box represents the relevant subsystems of a typical MRI system, which include the MRI scanner, console, and image reconstruction.
  In the implementation reported by LaConte (2007), the image reconstruction system performed all of the
 real-time calculations (estimating a classification model during training runs and using these models to classify new images during feedback runs)
@@ -131,7 +131,7 @@ computations, such as generating brain vs. non-brain mask images, tracking motio
 can also act as a server for the remote
 observation computer at a distant site. Future plans include transferring all of the real-time calculations to the real-time display computer 
 to fully utilize AFNI's real-time
-enhancements and our efforts to build plugins (like 3dsvm—http://lacontelab.org/3dsvm.html) for AFNI.
+enhancements and our efforts to build plugins [(like 3dsvm—http://lacontelab.org/3dsvm.html)] (http://www.lacontelab.org/3dsvm.htm) for AFNI.
 
 
 The minimum required equipment that you will need to run a powerfull rt-fMRI on your scanner could look something like this:
