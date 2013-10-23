@@ -36,7 +36,7 @@ In this section we will walkthough the different ways of implementing real-time 
 
 ####<a id="tabs"></a>Temporally Adaptive Brain State (TABS) fMRI
 
- This part describes brain-state prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
+This part describes brain-state prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
 
 ####Advantages
 1. Multivariate approaches provide a principled method for dealing with distributed patterns of brain responses
@@ -91,7 +91,7 @@ training data set to estimate this multi voxel pattern analysis parameters for t
  
 ### TABS implementation
 
-The equipment you will need to build an rtfMRI system:
+The equipment you will need to build an rtfMRI system as shown in Fig. 1:
 
 1. Depending on the vendor hardware and software architectures, you certainly need the scanner receiver A/D and image reconstruction hardware.
 2. Access to the reconstruction system, which can range from a shared file system to custom reconstruction code that has direct access
@@ -116,6 +116,22 @@ bandwidth are adequate to perform whatever is needed for the experiment.  Image 
 require only a few bytes. Furthermore, the TABS system for prediction of brain states uses a trained
 model that is the same for every volume and thus, the computational demand remains fixed for the entire feedback run.
 
+<img src="img/tabs_hardware.jpg" />
+
+Schematic of a current TABS hardware setup in which arrows indicate the direction of communication, tanken from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383). 
+The dotted box represents the relevant subsystems of a typical MRI system, which include the MRI scanner, console, and image reconstruction.
+ In the implementation reported by LaConte (2007), the image reconstruction system performed all of the
+real-time calculations (estimating a classification model during training runs and using these models to classify new images during feedback runs)
+ as well as communicating with
+the stimulus computer. For real-time display, an additional computer running AFNI has since been added. 
+For this to work, additional software was written to run on the image
+reconstruction computer to send image data to the real-time display computer with TCP/IP, using AFNI's real-time plugin.
+ This machine is currently also used for auxiliary
+computations, such as generating brain vs. non-brain mask images, tracking motion, and updating brain maps. The real-time display computer 
+can also act as a server for the remote
+observation computer at a distant site. Future plans include transferring all of the real-time calculations to the real-time display computer 
+to fully utilize AFNI's real-time
+enhancements and our efforts to build plugins (like 3dsvm—http://lacontelab.org/3dsvm.html) for AFNI.
 
 
 The minimum required equipment that you will need to run a powerfull rt-fMRI on your scanner could look something like this:
