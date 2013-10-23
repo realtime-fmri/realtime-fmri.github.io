@@ -33,8 +33,7 @@ In this section we will walkthough the different ways of implementing real-time 
 
 
 
-<a id="univariate"></a>
-### Univariate Statistical Approaches
+### univariate
 
 
 
