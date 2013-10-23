@@ -20,7 +20,7 @@ In this section we will walkthough the different ways of implementing real-time 
 ##### [TurboFire](#tf)
 ##### [Turbo-BrainVoyager](#tbv)
 ##### [AFNI](#afni)
-###2.[Multivariate statistical approaches](#mvpa)
+###2. [Multivariate statistical approaches](#mvpa)
 #### [Brain state prediction real-time fMRI](#mvpa)
 ##### [Temporally Adaptive Brain State (TABS) fMRI](#tabs)
 
@@ -33,7 +33,8 @@ In this section we will walkthough the different ways of implementing real-time 
 
 
 
-### <a id="univariate"></a>Univariate Statistical Approaches
+<a id="univariate"></a>
+### Univariate Statistical Approaches
 
 TurboFire, Turbo-BrainVoyager, and AFNI are fairly similar in their basic functionality.
 
