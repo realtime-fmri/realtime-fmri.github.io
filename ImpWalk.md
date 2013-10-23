@@ -157,15 +157,10 @@ model that is the same for every volume and thus, the computational demand remai
 
 <img src="img/tabs_hardware.jpg" />
 
-Schematic of a current TABS hardware setup in which arrows indicate the direction of communication, tanken from [LaConte et al. (2007)](http://www.ncbi.nlm.nih.gov/pubmed/17133383). 
+**Fig. 1** Schematic of a current TABS hardware setup in which arrows indicate the direction of communication, tanken from [LaConte et al. (2007)](http://www.ncbi.nlm.nih.gov/pubmed/17133383). 
 The dotted box represents the relevant subsystems of a typical MRI system, which include the MRI scanner, console, and image reconstruction.
  
 
 
-The minimum required equipment that you will need to run a powerfull rt-fMRI on your scanner could look something like this:
-
-CPU
-RAM
-etc.. 
 
 
