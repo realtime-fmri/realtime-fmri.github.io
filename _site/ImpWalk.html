@@ -44,6 +44,8 @@
 <h4 id='brain_state_prediction_realtime_fmri'><a href='#brain_state_prediction_real-time_fmri'>Brain state prediction real-time fMRI</a></h4>
 
 <h5 id='temporally_adaptive_brain_state_fmri'><a href='#temporally_adaptive_brain_state_fmri'>Temporally Adaptive Brain State fMRI</a></h5>
+
+<h5 id='multivariate_and_univariate_realtime_functional_imaging'><a href='#multivariate_and_univariate_real-time_functional_imaging'>Multivariate and univariate real-time functional imaging</a></h5>
 <hr />
 <h2 id='univariate_statistical_approaches'>Univariate statistical approaches</h2>
 
@@ -192,6 +194,30 @@
 <p><strong>Note</strong> that these details, by their nature, are outdated quickly, however, the main concerns are that the processor power and data transmission bandwidth are adequate to perform whatever is needed for the experiment. Image data requires the most RAM and/or disk utilization while BCI control signals from ROIs or classifiers usually require only a few bytes. Furthermore, the TABS system for prediction of brain states uses a trained model that is the same for every volume and thus, the computational demand remains fixed for the entire feedback run.</p>
 <img src='img/tabs_hardware.jpg' />
 <p><strong>Fig. 1</strong> Schematic of a current TABS hardware setup in which arrows indicate the direction of communication, tanken from <a href='http://www.ncbi.nlm.nih.gov/pubmed/17133383'>LaConte et al. (2007)</a>. The dotted box represents the relevant subsystems of a typical MRI system, which include the MRI scanner, console, and image reconstruction.</p>
+
+<h3 id='multivariate_and_univariate_realtime_functional_imaging'>Multivariate and univariate real-time functional imaging</h3>
+
+<p><a href='http://mindhive.mit.edu/realtime/murfi#documentation'><strong>MURFI</strong></a> (multivariate and univariate real-time functional imaging) is a software package for real-time processing of functional brain images for neuroscience applications. At the moment murfi is fMRI-centric, but we plan to add support for other imaging modalities.</p>
+
+<p><a href='http://mindhive.mit.edu/realtime/murfi#documentation'><strong>MURFI</strong></a> has a wiki with all the documents, installation and usage already in plase, so please go to <a href='http://mindhive.mit.edu/realtime/murfi#documentation'><strong>MURFI</strong></a> to get all the necesary info.</p>
+
+<p>This is an open-source release of the MURFI platform (see LICENSE for details).</p>
+
+<p>For using MURFI with Siemens scanners, a proprietary data transfer sequence can be obtained via a C2P agreement. Alternatively, for non-Siemens scanners or for your own Siemens functors, Murfi will accept data over TCPIP conformant with the following structured information:</p>
+
+<p><a href='https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h'>https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h</a></p>
+
+<p>If you use MURFI in your own research, please cite:</p>
+
+<p>Oliver Hinds, Satrajit Ghosh, Todd W Thompson, Julie J Yoo, Susan Whitfield-Gabrieli, Christina Triantafyllou, John D E Gabrieli (2011) Computing moment-to-moment BOLD activation for real-time neurofeedback. Neuroimage 54: 1. 361-368 Jan</p>
+
+<p><a href='http://dx.doi.org/10.1016/j.neuroimage.2010.07.060'>http://dx.doi.org/10.1016/j.neuroimage.2010.07.060</a></p>
+
+<p>Funding</p>
+
+<p>This project was partially funded by several sponsors:</p>
+
+<p>DARPA NIH McGovern Institute Neurotechnology Development Grant</p>
 </div>
 <div class="span3 offset1">
 
