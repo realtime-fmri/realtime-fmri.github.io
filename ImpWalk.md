@@ -16,7 +16,7 @@ fMRI signal in one or a few regions of interest (ROIs). However, there are also 
 In this section we will walkthough the different ways of implementing real-time fMRI.
 
 ###1. [Univariate statistical approaches](#univariate_statistical_approaches)
-#### [Region Of Interest](#region_of_interest)
+#### [Region of Interest](#region_of_interest)
 ##### [TurboFire](#turbofire)
 ##### [Turbo-BrainVoyager](#turbo-brainvoyager)
 ##### [AFNI](#afni)
@@ -42,10 +42,10 @@ TurboFire, Turbo-BrainVoyager, and AFNI are fairly similar in their basic functi
 
 These systems originated with the goal of processing data with a mass univariate approach.
 
-#### <a id="roi"></a> Region Of Interest (ROI) 
+#### Region of Interest
 
-#####<a id="tf"></a>TurboFire
-#####<a id="tbv"></a>Turbo-BrainVoyager
+#####TurboFire
+#####Turbo-BrainVoyager
 
 + Very good visualization capabilities for browsing through voxel time series and
 for 3D volume visualization.
@@ -53,14 +53,14 @@ for 3D volume visualization.
 + Updates an ROI file that can contain data for multiple ROIs and can be shared (e.g. over
 SAMBA) and read by presentation software to generate displays, control BCI devices, etc. [(Weiskopf et al., 2004a ](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1300789&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1300789)[,b)](http://www.sciencedirect.com/science/article/pii/S0928425705000239)
 
-#####<a id="afni"></a>AFNI
+#####AFNI
 
 + Very good visualization capabilities for browsing through voxel time series and
 for 3D volume visualization.
 + enables TCP and serial transmission of multiple ROIs as well as motion parameters.
-### <a id="mvpa"></a>Multivariate or Brain state prediction real-time fMRI.
+###Multivariate or Brain state prediction real-time fMRI.
 
-####<a id="tabs"></a>Temporally Adaptive Brain State fMRI
+####Temporally Adaptive Brain State fMRI
 
  This part describes temporally adaptive brain-state (Also refered as **TABST**) prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
 
