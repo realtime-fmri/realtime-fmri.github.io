@@ -18,7 +18,7 @@ In this section we will walkthough the different ways of implementing real-time 
 ###1. [Univariate statistical approaches](#univariate_statistical_approaches)
 ####2. [Univariate statistical approachesb](#univariate_statistical_approachesb)
 
-#### [Region of Interest](#region_of_interest)
+####2. [Region of Interest](#region_of_interest)
 
 ##### [TurboFire](#turbofire)
 
