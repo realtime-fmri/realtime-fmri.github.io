@@ -19,19 +19,19 @@ In this section we will walkthough the different ways of implementing real-time 
 
 ####1.1. [Region of Interest](#region_of_interest)
 
-#####+[TurboFire](#turbofire)
+#####1.1.1 [TurboFire](#turbofire)
 
-##### +[Turbo-BrainVoyager](#turbo-brainvoyager)
+##### 1.1.2 [Turbo-BrainVoyager](#turbo-brainvoyager)
 
-##### +[AFNI](#afni)
+##### 1.1.3 [AFNI](#afni)
 
 ###2. [Multivariate statistical approaches](#multivariate_statistical_approaches)
 
-#### [Brain state prediction realtime fMRI](#brain_state_prediction_realtime_fmri)
+#### 2.1[Brain state prediction realtime fMRI](#brain_state_prediction_realtime_fmri)
 
-##### [Temporally Adaptive Brain State fMRI](#temporally_adaptive_brain_state_fmri)
+##### 2.1.1[Temporally Adaptive Brain State fMRI](#temporally_adaptive_brain_state_fmri)
 
-##### [Multivariate and univariate realtime functional imaging](#multivariate_and_univariate_realtime_functional_imaging)
+##### 2.1.2[Multivariate and univariate realtime functional imaging](#multivariate_and_univariate_realtime_functional_imaging)
 
 
 
