@@ -21,13 +21,13 @@ In this section we will walkthough the different ways of implementing real-time 
 
 #####1.1.1 [TurboFire](#turbofire)
 
-##### 1.1.2 [Turbo-BrainVoyager](#turbo-brainvoyager)
+##### 1.1.2 [Turbo BrainVoyager](#turbo_brainvoyager)
 
 ##### 1.1.3 [AFNI](#afni)
 
 ###2. [Multivariate statistical approaches](#multivariate_statistical_approaches)
 
-#### 2.1[Brain state prediction realtime fMRI](#brain_state_prediction_realtime_fmri)
+#### 2.1 [Brain state prediction realtime fMRI](#brain_state_prediction_realtime_fmri)
 
 ##### 2.1.1[Temporally Adaptive Brain State fMRI](#temporally_adaptive_brain_state_fmri)
 
@@ -54,7 +54,7 @@ These systems originated with the goal of processing data with a mass univariate
 
 #### TurboFire
 
-#### Turbo-BrainVoyager
+#### Turbo BrainVoyager
 
 + Very good visualization capabilities for browsing through voxel time series and
 for 3D volume visualization.
@@ -67,13 +67,15 @@ SAMBA) and read by presentation software to generate displays, control BCI devic
 + Very good visualization capabilities for browsing through voxel time series and
 for 3D volume visualization.
 + enables TCP and serial transmission of multiple ROIs as well as motion parameters.
-## Multivariate or Brain state prediction real-time fMRI.
+## Brain state prediction realtime fMRI
 
-### Temporally Adaptive Brain State fMRI
+###Brain state prediction realtime fMRI
+
+#### Temporally Adaptive Brain State fMRI
 
  This part describes temporally adaptive brain-state (Also refered as **TABS**) prediction real-time fMRI from [LaConte et al. (2007, ](http://www.ncbi.nlm.nih.gov/pubmed/17133383)[ 2011)] (http://www.ncbi.nlm.nih.gov/pubmed/?term=Decoding+fMRI+brain+states+in+real-time+laConte)
 
-#### Advantages
+##### Advantages
 1. Multivariate approaches provide a principled method for dealing with distributed patterns of brain responses
   * when network activity is expected
   * when mental strategies could vary from individual to individual
@@ -87,7 +89,7 @@ increasing or decreasing local activity
 5. Stimulus feedback can respond to changes in the breain state mucha earlier than the time-to-peak limitations of the BOLD response
 
 
-#### Characteristics
+##### Characteristics
 
 + *"Brain states"* [(as in Strother et al., 2002b)](http://www.ncbi.nlm.nih.gov/pubmed/11906218) are essentially the sensory/behavioral events or 
 mental processes for we might hope to find neural correlates through neuroimaging.
@@ -124,7 +126,7 @@ training data set to estimate this multi voxel pattern analysis parameters for t
  
 
  
-### TABS implementation
+#### TABS implementation
 
 **The equipment you will need to build an rtfMRI system as shown in Fig. 1:**
 
@@ -171,7 +173,7 @@ The dotted box represents the relevant subsystems of a typical MRI system, which
  
 
 
-### Multivariate and univariate realtime functional imaging
+#### Multivariate and univariate realtime functional imaging
 
 [**MURFI**](http://mindhive.mit.edu/realtime/murfi#documentation) (multivariate and univariate real-time functional imaging) is a software package for real-time processing of 
 functional brain images for neuroscience applications. At the moment murfi is fMRI-centric, but we plan to add support for other imaging modalities.
