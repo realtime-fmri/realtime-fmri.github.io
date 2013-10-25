@@ -15,23 +15,23 @@ fMRI signal in one or a few regions of interest (ROIs). However, there are also 
 
 In this section we will walkthough the different ways of implementing real-time fMRI.
 
-###1. [Univariate statistical approaches](#univariate_statistical_approaches)
+##1. [Univariate statistical approaches](#univariate_statistical_approaches)
 
-####1.1. [Region of Interest](#region_of_interest)
+###1.1. [Region of Interest](#region_of_interest)
 
-#####1.1.1 [TurboFire](#turbofire)
+####1.1.1 [TurboFire](#turbofire)
 
-##### 1.1.2 [Turbo BrainVoyager](#turbo_brainvoyager)
+#### 1.1.2 [Turbo BrainVoyager](#turbo_brainvoyager)
 
-##### 1.1.3 [AFNI](#afni)
+#### 1.1.3 [AFNI](#afni)
 
-###2. [Multivariate statistical approaches](#multivariate_statistical_approaches)
+##2. [Multivariate statistical approaches](#multivariate_statistical_approaches)
 
-#### 2.1 [Brain state prediction realtime fMRI](#brain_state_prediction_realtime_fmri)
+### 2.1 [Brain state prediction realtime fMRI](#brain_state_prediction_realtime_fmri)
 
-##### 2.1.1[Temporally Adaptive Brain State fMRI](#temporally_adaptive_brain_state_fmri)
+#### 2.1.1 [Temporally Adaptive Brain State fMRI](#temporally_adaptive_brain_state_fmri)
 
-##### 2.1.2[Multivariate and univariate realtime functional imaging](#multivariate_and_univariate_realtime_functional_imaging)
+#### 2.1.2 [Multivariate and univariate realtime functional imaging](#multivariate_and_univariate_realtime_functional_imaging)
 
 
 
@@ -67,9 +67,9 @@ SAMBA) and read by presentation software to generate displays, control BCI devic
 + Very good visualization capabilities for browsing through voxel time series and
 for 3D volume visualization.
 + enables TCP and serial transmission of multiple ROIs as well as motion parameters.
-## Brain state prediction realtime fMRI
+## Multivariate statistical approaches
 
-###Brain state prediction realtime fMRI
+### Brain state prediction realtime fMRI
 
 #### Temporally Adaptive Brain State fMRI
 
