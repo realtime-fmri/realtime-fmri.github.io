@@ -54,6 +54,29 @@ These systems originated with the goal of processing data with a mass univariate
 
 #### TurboFire
 
+[After Gembris 2000](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291522-2594%28200002%2943:2%3C259::AID-MRM13%3E3.0.CO;2-P/abstract;jsessionid=0A92CE8FAC0E87D4D2236A2CA4E51E00.f03t04)
+
+Turbo Fire combines the computation of the correlation coefficients between measured
+fMRI time-series data and a reference vector with “detrending,” a technique for the suppression of non-stimulus-related signal
+components, and the “sliding-window technique.”
+
++ Computes correlation coefficients between fMRI time-series and reference
+time-series, which is suitable for (but not restricted
+to) real-time processing.
++ It combines a voxel-by-voxel detrending,
+the sliding-window technique, and a referencevector
+optimization in a computationally efficient manner.
++ The sliding-window technique provides constant sensitivity
+to changes in functional activation during the entire
+scan.
++ The reference-vector optimization, which allows the
+on-line computation of physiological parameters, such as
+delay and dispersion of the hemodynamic response function,
+and also the possibility of quickly changing a paradigm
+(over a time period corresponding to the length of the
+sliding-window) during a measurement, differentiates our
+dynamic approach from the cumulative approach by Cox
+et al. (7).
 #### Turbo BrainVoyager
 
 + Very good visualization capabilities for browsing through voxel time series and
