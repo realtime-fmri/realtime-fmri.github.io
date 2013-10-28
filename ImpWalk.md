@@ -54,7 +54,7 @@ These systems originated with the goal of processing data with a mass univariate
 
 #### TurboFire
 
-[After Gembris 2000](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291522-2594%28200002%2943:2%3C259::AID-MRM13%3E3.0.CO;2-P/abstract;jsessionid=0A92CE8FAC0E87D4D2236A2CA4E51E00.f03t04)
+[After Gembris et al. 2000](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291522-2594%28200002%2943:2%3C259::AID-MRM13%3E3.0.CO;2-P/abstract;jsessionid=0A92CE8FAC0E87D4D2236A2CA4E51E00.f03t04)
 
 Turbo Fire combines the computation of the correlation coefficients between measured
 fMRI time-series data and a reference vector with “detrending,” a technique for the suppression of non-stimulus-related signal
