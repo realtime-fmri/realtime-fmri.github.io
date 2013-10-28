@@ -86,12 +86,16 @@ for 3D volume visualization.
 + Updates an ROI file that can contain data for multiple ROIs and can be shared (e.g. over
 SAMBA) and read by presentation software to generate displays, control BCI devices, etc. [(Weiskopf et al., 2004a ](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1300789&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1300789)[,b)](http://www.sciencedirect.com/science/article/pii/S0928425705000239)
 + [Turbo Brain-Vogager page](http://www.brainvoyager.com/bvresources/RainersBVBlog/files/tbv20.html)
+
+
 #### AFNI
 
 + Very good visualization capabilities for browsing through voxel time series and
 for 3D volume visualization.
 + enables TCP and serial transmission of multiple ROIs as well as motion parameters.
 + [AFNI page] (http://afni.nimh.nih.gov/afni/)
+
+
 ## Multivariate statistical approaches
 
 ### Brain state prediction realtime fMRI
