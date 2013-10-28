@@ -75,8 +75,9 @@ delay and dispersion of the hemodynamic response function,
 and also the possibility of quickly changing a paradigm
 (over a time period corresponding to the length of the
 sliding-window) during a measurement, differentiates our
-dynamic approach from the cumulative approach by Cox
-et al. (7).
+dynamic approach from the cumulative approach by [Cox et al. 1998] (http://cds.ismrm.org/ismrm-1998/PDF1/P0295.PDF)
+et al. 
+
 #### Turbo BrainVoyager
 
 + Very good visualization capabilities for browsing through voxel time series and
